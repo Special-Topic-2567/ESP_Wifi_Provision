@@ -60,6 +60,8 @@ esp32 จะเข้าสู่โหมด provision โดยไม่ต้
 ![461208933_887275633274835_4777025597331303625_n](https://github.com/user-attachments/assets/56fd4ab0-5c4b-4f62-bc87-b9bc4db986a6)
 
 
+![460494983_8053296161466703_3058914200001914239_n](https://github.com/user-attachments/assets/df5e92ab-2df8-446f-8e4b-a677288adde6)
+
 
 ![459239955_1153416725754598_1482548759110140123_n](https://github.com/user-attachments/assets/28a2b713-ad1a-40c1-8cfa-51c4d0deef2f)
 
