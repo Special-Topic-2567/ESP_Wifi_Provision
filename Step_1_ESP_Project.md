@@ -23,5 +23,3 @@
 
 #### สังเกตุและบันทึกข้อความที่ esp32 แสดงออกมาทาง serial terminal ไว้ในไฟล์ output_wifi_prov_mgr_sect_1.md เพื่อส่งขึ้น github
 
-
-
