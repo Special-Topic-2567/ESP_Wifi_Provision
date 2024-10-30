@@ -20,7 +20,8 @@ esp32 รุ่นที่ใช้งานกันนั้นสามา�
 7. ทำการ provision จนสามารถเชื่อมต่อกับ access point ได้สำเร็จ
 8. บันทึก log ทาง output ของ serial monitor พร้อมทั้งอธิบายส่วนที่สำคัญ
 9. ส่งขึ้น github
-
+---
+## log terminal
 PS D:\ESP32_Koson\wifi_prov_mgr> & set IDF_PATH='C:\Users\Admin\esp\v5.3.1\esp-idf'
 PS D:\ESP32_Koson\wifi_prov_mgr> & 'C:\Users\Admin\.espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe' 'C:\Users\Admin\esp\v5.3.1\esp-idf\tools\idf_monitor.py' -p COM3 -b 115200 --toolchain-prefix xtensa-esp32-elf- --target esp32 'd:\ESP32_Koson\wifi_prov_mgr\build\wifi_prov_mgr.elf'
 --- WARNING: GDB cannot open serial ports accessed as COMx
