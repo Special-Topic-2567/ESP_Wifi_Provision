@@ -43,4 +43,7 @@
 กดปุ่ม provision -> กดปุ่ม RST เพื่อรีเซ็ต  -> ปล่อยปุ่ม RST เพื่อรีเซ็ต -> ปล่อยปุ่ม provision  
 
 esp32 จะเข้าสู่โหมด provision โดยไม่ต้องล้าง flash ใหม่ทุกครั้ง
- 
+---
+## ผลการทดลอง
+![Screenshot 2024-10-30 235253](https://github.com/user-attachments/assets/756aedff-76af-4b4a-bec6-7d83afcafc8e)
+
