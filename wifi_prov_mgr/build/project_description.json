@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "wifi_prov_mgr",
-    "project_version":    "949fe19",
+    "project_version":    "3e175d8-dirty",
     "project_path":       "D:/Esp32_specailTopic/ESP_Wifi_Provision/wifi_prov_mgr",
     "idf_path":           "D:/Esp32_specailTopic/v5.2.2/esp-idf",
     "build_dir":          "D:/Esp32_specailTopic/ESP_Wifi_Provision/wifi_prov_mgr/build",
