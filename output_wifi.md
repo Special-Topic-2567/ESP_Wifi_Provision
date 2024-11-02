@@ -91,9 +91,173 @@ I (1169) NimBLE:  adv_channel_map=0 own_addr_type=0 adv_filter_policy=0 adv_itvl
 I (1179) NimBLE:
 ```
 
+![image](https://github.com/user-attachments/assets/9e43c6dc-1eb3-405f-af53-5a980975f5dd)
 
 
 ```
+I (1449) app: If QR code is not visible, copy paste the below URL in a browser.
+https://espressif.github.io/esp-jumpstart/qrcode.html?data={"ver":"v1","name":"PROV_F82D6C","username":"wifiprov","pop":"abcd1234","transport":"ble"}
+I (99929) app: BLE transport: Connected!
+I (100109) protocomm_nimble: mtu update event; conn_handle=0 cid=4 mtu=256
+I (101489) security2: Using salt and verifier to generate public key...
+I (102179) app: Secured session established!
+I (124939) app: Received Wi-Fi credentials
+        SSID     : AIS 4G Hi-Speed Home WiFi_76947550769475
+        Password : 50769475
+I (131039) wifi:new:<11,0>, old:<1,0>, ap:<255,255>, sta:<11,0>, prof:1
+I (131039) wifi:state: init -> auth (b0)
+I (131039) wifi:state: auth -> assoc (0)
+I (131059) wifi:state: assoc -> run (10)
+I (131069) wifi:connected with AIS 4G Hi-Speed Home WiFi_769475, aid = 4, channel 11, BW20, bssid = 30:0a:c5:9e:94:9f
+I (131069) wifi:security: WPA2-PSK, phy: bgn, rssi: -54
+I (131099) wifi:pm start, type: 1
 
+I (131099) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us
+I (131099) wifi:AP's beacon interval = 102400 us, DTIM period = 1
+I (135109) app: Connected with IP Address:192.168.1.159
+I (135109) esp_netif_handlers: sta ip: 192.168.1.159, mask: 255.255.255.0, gw: 192.168.1.1
+I (135109) wifi_prov_mgr: STA Got IP
+I (135119) app: Hello World!
+I (136119) app: Hello World!
+I (136299) NimBLE: GAP procedure initiated: stop advertising.
+
+I (136309) NimBLE: GAP procedure initiated: stop advertising.
+
+I (136309) NimBLE: GAP procedure initiated: terminate connection; conn_handle=0 hci_reason=19
+
+E (136379) protocomm_nimble: Error setting advertisement data; rc = 30
+I (136389) wifi_prov_mgr: Provisioning stopped
+I (136389) app: BLE transport: Disconnected!
+I (136389) app: BLE transport: Disconnected!
+I (136389) wifi_prov_scheme_ble: BTDM memory released
+I (137119) app: Hello World!
+I (138119) app: Hello World!
+I (139119) app: Hello World!
+I (140119) app: Hello World!
+I (141119) app: Hello World!
+I (142119) app: Hello World!
+I (143119) app: Hello World!
+I (144119) app: Hello World!
+I (145119) app: Hello World!
+I (146119) app: Hello World!
+I (147119) app: Hello World!
+I (148119) app: Hello World!
+I (149119) app: Hello World!
+I (150119) app: Hello World!
+I (151119) app: Hello World!
+I (152119) app: Hello World!
+I (153119) app: Hello World!
+I (154119) app: Hello World!
+I (154949) wifi:<ba-add>idx:0 (ifx:0, 30:0a:c5:9e:94:9f), tid:0, ssn:4, winSize:64
+I (154959) wifi:<ba-add>idx:1 (ifx:0, 30:0a:c5:9e:94:9f), tid:6, ssn:0, winSize:64
+I (155119) app: Hello World!
+I (156119) app: Hello World!
+I (157119) app: Hello World!
+I (158119) app: Hello World!
+I (159119) app: Hello World!
+I (160119) app: Hello World!
+I (161119) app: Hello World!
+I (162119) app: Hello World!
+I (163119) app: Hello World!
+I (164119) app: Hello World!
+I (165119) app: Hello World!
+I (166119) app: Hello World!
+I (167119) app: Hello World!
+I (168119) app: Hello World!
+I (169119) app: Hello World!
+I (170119) app: Hello World!
+I (171119) app: Hello World!
+I (172119) app: Hello World!
+I (173119) app: Hello World!
+I (174119) app: Hello World!
+I (175119) app: Hello World!
+I (176119) app: Hello World!
+I (177119) app: Hello World!
+I (178119) app: Hello World!
+I (179119) app: Hello World!
+I (180119) app: Hello World!
+I (181119) app: Hello World!
+I (182119) app: Hello World!
+I (183119) app: Hello World!
+I (184119) app: Hello World!
+I (185119) app: Hello World!
+I (186119) app: Hello World!
+I (187119) app: Hello World!
+I (188119) app: Hello World!
+I (189119) app: Hello World!
+I (190119) app: Hello World!
+I (191119) app: Hello World!
+I (192119) app: Hello World!
+I (193119) app: Hello World!
+I (194119) app: Hello World!
+I (195119) app: Hello World!
+I (196119) app: Hello World!
+I (197119) app: Hello World!
+I (198119) app: Hello World!
+I (199119) app: Hello World!
+I (200119) app: Hello World!
+I (201119) app: Hello World!
+I (202119) app: Hello World!
+I (203119) app: Hello World!
+I (204119) app: Hello World!
+I (205119) app: Hello World!
+I (206119) app: Hello World!
+I (207119) app: Hello World!
+I (208119) app: Hello World!
+I (209119) app: Hello World!
+I (210119) app: Hello World!
+I (211119) app: Hello World!
+I (212119) app: Hello World!
+I (213119) app: Hello World!
+I (214119) app: Hello World!
+I (215119) app: Hello World!
+I (216119) app: Hello World!
+I (217119) app: Hello World!
+I (218119) app: Hello World!
+I (219119) app: Hello World!
+I (220119) app: Hello World!
+I (221119) app: Hello World!
+I (222119) app: Hello World!
+I (223119) app: Hello World!
+I (224119) app: Hello World!
+I (225119) app: Hello World!
+I (226119) app: Hello World!
+I (227119) app: Hello World!
+I (228119) app: Hello World!
+I (229119) app: Hello World!
+I (230119) app: Hello World!
+I (231119) app: Hello World!
+I (232119) app: Hello World!
+I (233119) app: Hello World!
+I (234119) app: Hello World!
+I (235119) app: Hello World!
+I (236119) app: Hello World!
+I (237119) app: Hello World!
+I (238119) app: Hello World!
+I (239119) app: Hello World!
+I (240119) app: Hello World!
+I (241119) app: Hello World!
+I (242119) app: Hello World!
+I (243119) app: Hello World!
+I (244119) app: Hello World!
+I (245119) app: Hello World!
+I (246119) app: Hello World!
+I (247119) app: Hello World!
+I (248119) app: Hello World!
+I (249119) app: Hello World!
+I (250119) app: Hello World!
+I (251119) app: Hello World!
+I (252119) app: Hello World!
+I (253119) app: Hello World!
+I (254119) app: Hello World!
+I (255119) app: Hello World!
+I (256119) app: Hello World!
+I (257119) app: Hello World!
+I (258119) app: Hello World!
+I (259119) app: Hello World!
+I (260119) app: Hello World!
+I (261119) app: Hello World!
+I (262119) app: Hello World!
+I (263119) app: Hello World!
 
 ```
